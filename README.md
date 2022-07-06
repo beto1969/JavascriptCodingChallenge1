@@ -1,2 +1,0 @@
-# JavascriptCodingChallenge1
-wdhklwejdhkjwehdjkewhjd
