@@ -52,32 +52,3 @@ function divide(num1, num2) {
 // an operator (either +, -, * or /), and another number,
 // and then uses the functions created in the hard challenge to output the value in sentence form.
 // Example output: "3 + 4 = 7"
-console.log("Enter a number: ");
-let num1 = prompt();
-console.log("Enter an operator: ");
-let operator = prompt();
-console.log("Enter another number: ");
-let num2 = prompt();
-if(operator === "+") {
-    console.log(`${num1} + ${num2} = ${add(num1, num2)}`);
-} else if(operator === "-") {
-    console.log(`${num1} - ${num2} = ${subtract(num1, num2)}`);
-} else if(operator === "*") {
-    console.log(`${num1} * ${num2} = ${multiply(num1, num2)}`);
-} else if(operator === "/") {
-    console.log(`${num1} / ${num2} = ${divide(num1, num2)}`);
-
-    console.log("Hello World");
-
-    var myPod = ["Beverlyn Medina", "Derek Munoz", "Thayli Martinez-Dormez ", "Humberto Aguilar Sanchez", "Lucy"];
-
-    console.log(`${myPod[3]} has ${myPod.length} people in his pod`);
-
-
-    if (myPod.includes("Lucy")) {
-        console.log("Lucy is my POD leader");
-    } else {
-        console.log("Lucy is not my POD leader");
-
-    }
-}
