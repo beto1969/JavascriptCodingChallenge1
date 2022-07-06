@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 //VERY EASY: Create two variables and assign a number to each.
 // Console log the difference between the numbers.
@@ -78,5 +78,5 @@ if (myPod.includes("Lucy")){
     console.log("Lucy is my POD leader");
 }else {
     console.log("Lucy is not my POD leader");
->>>>>>> origin/main
+
 }
