@@ -48,7 +48,26 @@ function multiply(num1, num2) {
 function divide(num1, num2) {
     return num1 / num2;
 }
-//ERY HARD: Create a simple calculator that prompts the user for a number,
+//VERY HARD: Create a simple calculator that prompts the user for a number,
 // an operator (either +, -, * or /), and another number,
 // and then uses the functions created in the hard challenge to output the value in sentence form.
 // Example output: "3 + 4 = 7"
+console.log("Enter a number: ");
+let num1 = prompt();
+console.log("Enter an operator: ");
+let operator = prompt();
+console.log("Enter another number: ");
+let num2 = prompt();
+if(operator === "+") {
+    console.log(`${num1} + ${num2} = ${add(num1, num2)}`);
+
+} else if(operator === "-") {
+    console.log(`${num1} - ${num2} = ${subtract(num1, num2)}`);
+
+} else if(operator === "*") {
+    console.log(`${num1} * ${num2} = ${multiply(num1, num2)}`);
+
+} else if(operator === "/") {
+    console.log(`${num1} / ${num2} = ${divide(num1, num2)}`);
+
+}
